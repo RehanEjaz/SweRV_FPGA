@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7a35ticsg324-1L" LaunchTime="1642324922">
-  <File Type="ROUTE-BLACKBOX-DCP" Name="tb_top_routed_bb.dcp"/>
-  <File Type="BG-BGN" Name="tb_top.bgn"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="tb_top_postplace_pwropt.dcp"/>
-  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="tb_top_incremental_reuse_pre_placed.rpt"/>
-  <File Type="BG-BIT" Name="tb_top.bit"/>
-  <File Type="PLACE-DCP" Name="tb_top_placed.dcp"/>
-  <File Type="ROUTE-DCP" Name="tb_top_routed.dcp"/>
-  <File Type="PHYSOPT-DCP" Name="tb_top_physopt.dcp"/>
+  <File Type="BG-BIN" Name="tb_top.bin"/>
+  <File Type="ROUTE-TIMING-PB" Name="tb_top_timing_summary_routed.pb"/>
+  <File Type="BITSTR-MSK" Name="tb_top.msk"/>
+  <File Type="PA-TCL" Name="tb_top.tcl"/>
   <File Type="REPORTS-TCL" Name="tb_top_reports.tcl"/>
   <File Type="BITSTR-RBT" Name="tb_top.rbt"/>
-  <File Type="PA-TCL" Name="tb_top.tcl"/>
-  <File Type="BITSTR-MSK" Name="tb_top.msk"/>
-  <File Type="ROUTE-TIMING-PB" Name="tb_top_timing_summary_routed.pb"/>
+  <File Type="PHYSOPT-DCP" Name="tb_top_physopt.dcp"/>
+  <File Type="ROUTE-DCP" Name="tb_top_routed.dcp"/>
+  <File Type="BG-BGN" Name="tb_top.bgn"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="tb_top_routed_bb.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="tb_top_postplace_pwropt.dcp"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <File Type="OPT-DCP" Name="tb_top_opt.dcp"/>
-  <File Type="BG-BIN" Name="tb_top.bin"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="tb_top_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="tb_top_placed.dcp"/>
+  <File Type="BG-BIT" Name="tb_top.bit"/>
   <File Type="OPT-DRC" Name="tb_top_drc_opted.rpt"/>
   <File Type="ROUTE-ERROR-DCP" Name="tb_top_routed_error.dcp"/>
   <File Type="BG-DRC" Name="tb_top.drc"/>
