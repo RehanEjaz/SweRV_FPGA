@@ -531,42 +531,42 @@ module rvtwoscomp #( parameter WIDTH=32 )
 endmodule  // 2'scomp
 
 // find first
-module rvfindfirst1 #( parameter WIDTH=32, SHIFT=$clog2(WIDTH) )
-   (
-     input logic [WIDTH-1:0] din,
+//module rvfindfirst1 #( parameter WIDTH=32, SHIFT=$clog2(WIDTH) )
+//   (
+//     input logic [WIDTH-1:0] din,
 
-     output logic [SHIFT-1:0] dout
-     );
-   logic                      done;
+//     output logic [SHIFT-1:0] dout
+//     );
+//   logic                      done;
 
-   always_comb begin
-      dout[SHIFT-1:0] = {SHIFT{1'b0}};
-      done    = 1'b0;
+//   always_comb begin
+//      dout[SHIFT-1:0] = {SHIFT{1'b0}};
+//      done    = 1'b0;
 
-      for ( int i = WIDTH-1; i > 0; i-- )  begin : find_first_one
-         done |= din[i];
-         dout[SHIFT-1:0] += done ? 1'b0 : 1'b1;
-      end : find_first_one
-   end
-endmodule // rvfindfirst1
+//      for ( int i = WIDTH-1; i > 0; i-- )  begin : find_first_one
+//         done |= din[i];
+//         dout[SHIFT-1:0] += done ? 1'b0 : 1'b1;
+//      end : find_first_one
+//   end
+//endmodule // rvfindfirst1
 
-module rvfindfirst1hot #( parameter WIDTH=32 )
-   (
-     input logic [WIDTH-1:0] din,
+//module rvfindfirst1hot #( parameter WIDTH=32 )
+//   (
+//     input logic [WIDTH-1:0] din,
 
-     output logic [WIDTH-1:0] dout
-     );
-   logic                      done;
+//     output logic [WIDTH-1:0] dout
+//     );
+//   logic                      done;
 
-   always_comb begin
-      dout[WIDTH-1:0] = {WIDTH{1'b0}};
-      done    = 1'b0;
-      for ( int i = 0; i < WIDTH; i++ )  begin : find_first_one
-         dout[i] = ~done & din[i];
-         done   |= din[i];
-      end : find_first_one
-   end
-endmodule // rvfindfirst1hot
+//   always_comb begin
+//      dout[WIDTH-1:0] = {WIDTH{1'b0}};
+//      done    = 1'b0;
+//      for ( int i = 0; i < WIDTH; i++ )  begin : find_first_one
+//         dout[i] = ~done & din[i];
+//         done   |= din[i];
+//      end : find_first_one
+//   end
+//endmodule // rvfindfirst1hot
 
 // mask and match function matches bits after finding the first 0 position
 // find first starting from LSB. Skip that location and match the rest of the bits
