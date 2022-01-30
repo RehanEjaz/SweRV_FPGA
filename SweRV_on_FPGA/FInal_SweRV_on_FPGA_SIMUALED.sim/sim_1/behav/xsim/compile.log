@@ -1,0 +1,143 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/testbench/ahb_sif.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_slv
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/include/el2_def.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/lib/ahb_to_axi4.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ahb_to_axi4
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/lib/axi4_to_ahb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi4_to_ahb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/testbench/axi_lsu_dma_bridge.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_lsu_dma_bridge
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/lib/beh_lib.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rvdff
+INFO: [VRFC 10-311] analyzing module rvdffs
+INFO: [VRFC 10-311] analyzing module rvdffsc
+INFO: [VRFC 10-311] analyzing module rvdff_fpga
+INFO: [VRFC 10-311] analyzing module rvdffs_fpga
+INFO: [VRFC 10-311] analyzing module rvdffsc_fpga
+INFO: [VRFC 10-311] analyzing module rvdffe
+INFO: [VRFC 10-311] analyzing module rvdffpcie
+INFO: [VRFC 10-311] analyzing module rvdfflie
+INFO: [VRFC 10-311] analyzing module rvdffppe
+INFO: [VRFC 10-311] analyzing module rvdffie
+INFO: [VRFC 10-311] analyzing module rvdffiee
+INFO: [VRFC 10-311] analyzing module rvsyncss
+INFO: [VRFC 10-311] analyzing module rvsyncss_fpga
+INFO: [VRFC 10-311] analyzing module rvlsadder
+INFO: [VRFC 10-311] analyzing module rvbradder
+INFO: [VRFC 10-311] analyzing module rvtwoscomp
+INFO: [VRFC 10-311] analyzing module rvmaskandmatch
+INFO: [VRFC 10-311] analyzing module rvrangecheck
+INFO: [VRFC 10-311] analyzing module rveven_paritygen
+INFO: [VRFC 10-311] analyzing module rveven_paritycheck
+INFO: [VRFC 10-311] analyzing module rvecc_encode
+INFO: [VRFC 10-311] analyzing module rvecc_decode
+INFO: [VRFC 10-311] analyzing module rvecc_encode_64
+INFO: [VRFC 10-311] analyzing module rvecc_decode_64
+INFO: [VRFC 10-311] analyzing module clockhdr
+INFO: [VRFC 10-311] analyzing module rvclkhdr
+INFO: [VRFC 10-311] analyzing module rvoclkhdr
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/dmi/dmi_jtag_to_core_sync.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmi_jtag_to_core_sync
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/dbg/el2_dbg.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module el2_dbg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/dec/el2_dec.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module el2_dec
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/dec/el2_dec_decode_ctl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module el2_dec_decode_ctl
+INFO: [VRFC 10-311] analyzing module el2_dec_dec_ctl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/dec/el2_dec_gpr_ctl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module el2_dec_gpr_ctl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/dec/el2_dec_ib_ctl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module el2_dec_ib_ctl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/dec/el2_dec_tlu_ctl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module el2_dec_tlu_ctl
+INFO: [VRFC 10-311] analyzing module el2_dec_timer_ctl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/dec/el2_dec_trigger.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module el2_dec_trigger
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/el2_dma_ctrl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module el2_dma_ctrl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/exu/el2_exu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module el2_exu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/exu/el2_exu_alu_ctl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module el2_exu_alu_ctl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/exu/el2_exu_div_ctl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module el2_exu_div_ctl
+INFO: [VRFC 10-311] analyzing module el2_exu_div_existing_1bit_cheapshortq
+INFO: [VRFC 10-311] analyzing module el2_exu_div_new_1bit_fullshortq
+INFO: [VRFC 10-311] analyzing module el2_exu_div_new_2bit_fullshortq
+INFO: [VRFC 10-311] analyzing module el2_exu_div_new_3bit_fullshortq
+INFO: [VRFC 10-311] analyzing module el2_exu_div_new_4bit_fullshortq
+INFO: [VRFC 10-311] analyzing module el2_exu_div_cls
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/exu/el2_exu_mul_ctl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module el2_exu_mul_ctl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/ifu/el2_ifu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module el2_ifu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/ifu/el2_ifu_aln_ctl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module el2_ifu_aln_ctl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/ifu/el2_ifu_bp_ctl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module el2_ifu_bp_ctl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/ifu/el2_ifu_compress_ctl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module el2_ifu_compress_ctl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/ifu/el2_ifu_ic_mem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module el2_ifu_ic_mem
+INFO: [VRFC 10-311] analyzing module EL2_IC_DATA
+INFO: [VRFC 10-311] analyzing module EL2_IC_TAG
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/ifu/el2_ifu_iccm_mem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module el2_ifu_iccm_mem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/ifu/el2_ifu_ifc_ctl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module el2_ifu_ifc_ctl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/ifu/el2_ifu_mem_ctl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module el2_ifu_mem_ctl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/lib/el2_lib.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module el2_btb_tag_hash
+INFO: [VRFC 10-311] analyzing module el2_btb_tag_hash_fold
+INFO: [VRFC 10-311] analyzing module el2_btb_addr_hash
+INFO: [VRFC 10-311] analyzing module el2_btb_ghr_hash
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/lsu/el2_lsu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module el2_lsu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/lsu/el2_lsu_addrcheck.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module el2_lsu_addrcheck
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/lsu/el2_lsu_bus_buffer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module el2_lsu_bus_buffer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/lsu/el2_lsu_bus_intf.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module el2_lsu_bus_intf
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/lsu/el2_lsu_clkdomain.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module el2_lsu_clkdomain
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/lsu/el2_lsu_dccm_ctl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module el2_lsu_dccm_ctl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/lsu/el2_lsu_dccm_mem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module el2_lsu_dccm_mem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/lsu/el2_lsu_ecc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module el2_lsu_ecc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/lsu/el2_lsu_lsc_ctl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module el2_lsu_lsc_ctl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/lsu/el2_lsu_stbuf.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module el2_lsu_stbuf
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/lsu/el2_lsu_trigger.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module el2_lsu_trigger
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/el2_mem.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module el2_mem
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/el2_pic_ctrl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module el2_pic_ctrl
+INFO: [VRFC 10-311] analyzing module el2_cmp_and_mux
+INFO: [VRFC 10-311] analyzing module el2_configurable_gw
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/el2_swerv.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module el2_swerv
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/el2_swerv_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module el2_swerv_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/lib/mem_lib.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram_4096x39
+INFO: [VRFC 10-311] analyzing module ram_be_512x142
+INFO: [VRFC 10-311] analyzing module ram_be_128x52
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/lib/mem_lib.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram_32768x39
+INFO: [VRFC 10-311] analyzing module ram_2048x39
+INFO: [VRFC 10-311] analyzing module ram_be_8192x142
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/dmi/rvjtag_tap.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rvjtag_tap
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/testbench/tb_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sim_1/imports/new/testbench.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.srcs/sim_1/imports/new/top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top

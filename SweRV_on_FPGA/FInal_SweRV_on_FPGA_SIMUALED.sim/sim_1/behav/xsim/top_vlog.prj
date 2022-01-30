@@ -1,0 +1,60 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/default" --include "../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/ip/clk_wiz_0_1" --include "../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/testbench" --include "../../../../../../../Downloads/FPGA_SWRV/SweRV_on_FPGA/SweRV_on_FPGA.srcs/sources_1/imports/default" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/dmi/dmi_wrapper.v" \
+
+sv xil_defaultlib  --include "../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/default" --include "../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/ip/clk_wiz_0_1" --include "../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/testbench" --include "../../../../../../../Downloads/FPGA_SWRV/SweRV_on_FPGA/SweRV_on_FPGA.srcs/sources_1/imports/default" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/testbench/ahb_sif.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/include/el2_def.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/lib/ahb_to_axi4.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/lib/axi4_to_ahb.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/testbench/axi_lsu_dma_bridge.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/lib/beh_lib.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/dmi/dmi_jtag_to_core_sync.v" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/dbg/el2_dbg.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/dec/el2_dec.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/dec/el2_dec_decode_ctl.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/dec/el2_dec_gpr_ctl.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/dec/el2_dec_ib_ctl.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/dec/el2_dec_tlu_ctl.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/dec/el2_dec_trigger.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/el2_dma_ctrl.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/exu/el2_exu.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/exu/el2_exu_alu_ctl.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/exu/el2_exu_div_ctl.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/exu/el2_exu_mul_ctl.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/ifu/el2_ifu.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/ifu/el2_ifu_aln_ctl.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/ifu/el2_ifu_bp_ctl.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/ifu/el2_ifu_compress_ctl.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/ifu/el2_ifu_ic_mem.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/ifu/el2_ifu_iccm_mem.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/ifu/el2_ifu_ifc_ctl.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/ifu/el2_ifu_mem_ctl.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/lib/el2_lib.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/lsu/el2_lsu.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/lsu/el2_lsu_addrcheck.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/lsu/el2_lsu_bus_buffer.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/lsu/el2_lsu_bus_intf.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/lsu/el2_lsu_clkdomain.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/lsu/el2_lsu_dccm_ctl.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/lsu/el2_lsu_dccm_mem.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/lsu/el2_lsu_ecc.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/lsu/el2_lsu_lsc_ctl.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/lsu/el2_lsu_stbuf.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/lsu/el2_lsu_trigger.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/el2_mem.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/el2_pic_ctrl.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/el2_swerv.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/el2_swerv_wrapper.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/lib/mem_lib.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/lib/mem_lib.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/design/dmi/rvjtag_tap.v" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sources_1/imports/testbench/tb_top.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sim_1/imports/new/testbench.sv" \
+"../../../../FInal_SweRV_on_FPGA_SIMUALED.srcs/sim_1/imports/new/top.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

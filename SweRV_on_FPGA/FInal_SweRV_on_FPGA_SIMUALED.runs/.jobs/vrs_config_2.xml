@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="synth_4" LaunchDir="/home/rehan/MERL/FPGA_EMU/FInal_SweRV_on_FPGA_SIMUALED/FInal_SweRV_on_FPGA_SIMUALED.runs/synth_4" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

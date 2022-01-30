@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_3" LaunchPart="xc7a50ticsg324-1L" LaunchTime="1642681846">
+  <File Type="PA-TCL" Name="tb_top.tcl"/>
+  <File Type="RDS-DCP" Name="tb_top.dcp"/>
+  <File Type="REPORTS-TCL" Name="tb_top_reports.tcl"/>
+  <File Type="RDS-RDS" Name="tb_top.vds"/>
+  <File Type="RDS-UTIL-PB" Name="tb_top_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="tb_top_utilization_synth.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/ip/clk_wiz_0_1/clk_wiz_0.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../opt/Xilinx/Vivado/2018.2/bin/Only_SweRV_On_FPGA/Only_SweRV_On_FPGA.srcs/sources_1/ip/clk_wiz_0_1/clk_wiz_0.xci"/>
+        <Attr Name="ImportTime" Val="1642681789"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/dmi/dmi_wrapper.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/dmi/dmi_wrapper.v"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/default/common_defines.vh">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Rev_new_cloned/Rev-Soc/core/snapshots/default/common_defines.vh"/>
+        <Attr Name="ImportTime" Val="1636867851"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/testbench/ahb_sif.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/testbench/ahb_sif.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/include/el2_def.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/include/el2_def.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/lib/ahb_to_axi4.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/lib/ahb_to_axi4.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/lib/axi4_to_ahb.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/lib/axi4_to_ahb.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/testbench/axi_lsu_dma_bridge.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/testbench/axi_lsu_dma_bridge.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lib/beh_lib.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/lib/beh_lib.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/dmi/dmi_jtag_to_core_sync.v">
+      <FileInfo SFType="SVerilog">
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/dmi/dmi_jtag_to_core_sync.v"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/dbg/el2_dbg.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/dbg/el2_dbg.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/dec/el2_dec.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/dec/el2_dec.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/dec/el2_dec_decode_ctl.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/dec/el2_dec_decode_ctl.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/dec/el2_dec_gpr_ctl.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/dec/el2_dec_gpr_ctl.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/dec/el2_dec_ib_ctl.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/dec/el2_dec_ib_ctl.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/dec/el2_dec_tlu_ctl.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/dec/el2_dec_tlu_ctl.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/dec/el2_dec_trigger.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/dec/el2_dec_trigger.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/el2_dma_ctrl.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/el2_dma_ctrl.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/exu/el2_exu.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/exu/el2_exu.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/exu/el2_exu_alu_ctl.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/exu/el2_exu_alu_ctl.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/exu/el2_exu_div_ctl.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/exu/el2_exu_div_ctl.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/exu/el2_exu_mul_ctl.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/exu/el2_exu_mul_ctl.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/ifu/el2_ifu.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/ifu/el2_ifu.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/ifu/el2_ifu_aln_ctl.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/ifu/el2_ifu_aln_ctl.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/ifu/el2_ifu_bp_ctl.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/ifu/el2_ifu_bp_ctl.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/ifu/el2_ifu_compress_ctl.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/ifu/el2_ifu_compress_ctl.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/ifu/el2_ifu_ic_mem.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/ifu/el2_ifu_ic_mem.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/ifu/el2_ifu_iccm_mem.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/ifu/el2_ifu_iccm_mem.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/ifu/el2_ifu_ifc_ctl.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/ifu/el2_ifu_ifc_ctl.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/ifu/el2_ifu_mem_ctl.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/ifu/el2_ifu_mem_ctl.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lib/el2_lib.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/lib/el2_lib.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/lsu/el2_lsu.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/lsu/el2_lsu.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/lsu/el2_lsu_addrcheck.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/lsu/el2_lsu_addrcheck.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/lsu/el2_lsu_bus_buffer.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/lsu/el2_lsu_bus_buffer.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/lsu/el2_lsu_bus_intf.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/lsu/el2_lsu_bus_intf.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/lsu/el2_lsu_clkdomain.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/lsu/el2_lsu_clkdomain.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/lsu/el2_lsu_dccm_ctl.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/lsu/el2_lsu_dccm_ctl.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/lsu/el2_lsu_dccm_mem.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/lsu/el2_lsu_dccm_mem.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/lsu/el2_lsu_ecc.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/lsu/el2_lsu_ecc.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/lsu/el2_lsu_lsc_ctl.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/lsu/el2_lsu_lsc_ctl.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/lsu/el2_lsu_stbuf.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/lsu/el2_lsu_stbuf.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/lsu/el2_lsu_trigger.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/lsu/el2_lsu_trigger.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/el2_mem.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/el2_mem.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/default/pic_map_auto.h">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Rev_new_cloned/Rev-Soc/core/snapshots/default/pic_map_auto.h"/>
+        <Attr Name="ImportTime" Val="1636867851"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/el2_pic_ctrl.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/el2_pic_ctrl.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/el2_swerv.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/el2_swerv.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/el2_swerv_wrapper.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/el2_swerv_wrapper.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/lib/mem_lib.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/lib/mem_lib.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/lib/mem_lib.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/lib/mem_lib.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/design/dmi/rvjtag_tap.v">
+      <FileInfo SFType="SVerilog">
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/design/dmi/rvjtag_tap.v"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/testbench/tb_top.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/testbench/tb_top.sv"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/default/defines.h">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Rev_new_cloned/Rev-Soc/core/snapshots/default/defines.h"/>
+        <Attr Name="ImportTime" Val="1636867851"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/default/pd_defines.vh">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Rev_new_cloned/Rev-Soc/core/snapshots/default/pd_defines.vh"/>
+        <Attr Name="ImportTime" Val="1636867851"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/default/el2_pdef.vh">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Rev_new_cloned/Rev-Soc/core/snapshots/default/el2_pdef.vh"/>
+        <Attr Name="ImportTime" Val="1636867851"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/testbench/remote_bitbang.h">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/testbench/remote_bitbang.h"/>
+        <Attr Name="ImportTime" Val="1642177899"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../SweRV_for_FPGA/Cores-SweRV-EL2/testbench/dasm.svi"/>
+    <File Path="$PSRCDIR/sources_1/new/program.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../opt/Xilinx/Vivado/2018.2/bin/Only_SweRV_On_FPGA/Only_SweRV_On_FPGA.srcs/sources_1/new/program.mem"/>
+        <Attr Name="ImportTime" Val="1642674856"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="tb_top"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/new/constraints.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../project_15/FPGA_DESIGN/project_14.srcs/constrs_1/new/constraints.xdc"/>
+        <Attr Name="ImportTime" Val="1641310988"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
